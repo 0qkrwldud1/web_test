@@ -188,12 +188,6 @@ div.card.show div.flap2 {
   font-size: 15px;
   padding-left: 65%;
 }
-/* #grid_category{
-  display: grid;
-  margin-top: 50;
-  margin-left: 50px;
-  margin-right: 50px;
-  } */
 .card {
   width: 90%;
   text-align: center;
@@ -215,8 +209,6 @@ h5{
   margin-left: 45px;
   color: rgb(70, 69, 69);
   text-shadow:5px 5px 15px rgb(255, 254, 254); 
-
-
 }
 .span{
   margin: 50px;
@@ -227,9 +219,7 @@ h5{
   }
 .a{
   margin-left: 0px;
- 
-}
-
+ }
 #foot{
  margin-top: 150PX;
  margin-left: 40px;
@@ -271,7 +261,6 @@ a:visited {
   display: block;
   margin: 0 auto;
 }
-
 input#search-bar {
   margin: 0 auto;
   width: 100%;
@@ -281,7 +270,6 @@ input#search-bar {
   border: 1px solid #ffffff;
   outline: none;
   opacity: 0.3;
-  
 }
 .search-icon {
   position: relative;
