@@ -11,6 +11,8 @@ $(document).ready(function () {
       }
   
       if ($("div.cards").hasClass("showing")) {
+
+        
         // a card is already in view
         $("div.card.show").removeClass("show");
   
