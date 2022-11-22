@@ -207,9 +207,8 @@ h5{
   font-weight: 900;
   font-size: 60px;
   margin-left: 45px;
-  color: rgb(70, 69, 69);
-  text-shadow:5px 5px 15px rgb(255, 254, 254); 
-}
+  color: rgb(145, 142, 142);
+  }
 .span{
   margin: 50px;
 }
@@ -238,7 +237,11 @@ a:link {
 a:visited {
   color : rgb(131, 131, 131);
 }
-
+a:hover,
+ a:focus,
+ a:active {
+   color: grey !important;
+ }
 #up_a{
   margin-top: 7%;
   margin-left: 25%;

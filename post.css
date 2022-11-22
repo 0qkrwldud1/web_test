@@ -247,152 +247,151 @@
 
  /*END GENERAL CSS FOR BACKEND*/
  /*START CSS FOR CREATE BLOG PAGE*/
- form {
-   padding-top: 10px;
- }
-
- label {
-   display: block;
-   font-size: 0.9em;
-   padding-bottom: 5px;
- }
-
- input,
- textarea,
- select {
-   font-size: 0.9em;
-   width: 100%;
-   margin: 0;
-   padding: 10px 8px;
-   box-sizing: border-box;
-   border: 1px solid rgba(0, 0, 0, .12);
-   border-radius: 4px;
-   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
- }
-
- #post-description{
-  height: 300px;
- }
- 
- input,
- select {
-   height: 40px;
- }
-
- input:focus,
- textarea:focus,
- select:focus {
-   outline: none;
- }
-
- .form-field {
-   margin-bottom: 14px;
- }
-
- .form-field.short input,
- .form-field.short select,
- .form-field.short textarea {
-   max-width: 250px;
- }
-
- .form-field.medium input,
- .form-field.medium select,
- .form-field.medium textarea {
-   max-width: 700px;
- }
-
- input[type="checkbox"] {
-   height: 20px;
-   width: 20px;
- }
-
- .form-field.checkbox {
-   display: flex;
- }
-
- .form-field.checkbox label {
-   padding: 1px 0px 0px 3px;
- }
-
- input[readonly] {
-   background: #f3f3f3;
- }
-
- button.publish,
- button.update {
-  background: rgb(77, 77, 77);
-  color: white;
- }
- button:hover,
- button:active,
- button:focus{
-  background: #67a1b3;
+form {
+  padding-top: 10px;
 }
 
- .new-post-actions,
- .edit-post-actions {
-   display: flex;
-   flex-direction: row-reverse;
-   margin-top: 25px;
- }
+label {
+  display: block;
+  font-size: 0.9em;
+  padding-bottom: 5px;
+}
 
- .new-post-actions button,
- .edit-post-actions button {
-   font-size: 0.9em;
-   height: 40px;
-   padding: 5px 15px;
-   margin-right: 6px;
- }
+input,
+textarea,
+select {
+  font-size: 0.9em;
+  width: 100%;
+  margin: 0;
+  padding: 10px 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, .12);
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
 
- .field-6 {
-   padding-top: 2px;
- }
+#post-description{
+  height: 300px;
+}
+ 
+input,
+select {
+  height: 40px;
+}
 
- #grid_header{
-margin: 0 auto;
-max-width: calc(100% - 4em);
-width: 80em;
-padding-top: 20px;
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.form-field {
+ margin-bottom: 14px;
+}
+
+.form-field.short input,
+.form-field.short select,
+.form-field.short textarea {
+ max-width: 250px;
+}
+
+.form-field.medium input,
+.form-field.medium select,
+.form-field.medium textarea {
+ max-width: 700px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
+.form-field.checkbox {
+  display: flex;
+}
+
+.form-field.checkbox label {
+  padding: 1px 0px 0px 3px;
+}
+
+input[readonly] {
+  background: #f3f3f3;
+}
+
+button.publish,
+button.update {
+ background: rgb(77, 77, 77);
+ color: white;
+}
+button:hover,
+button:active,
+button:focus{
+ background: #67a1b3;
+}
+
+.new-post-actions,
+.edit-post-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 25px;
+}
+
+.new-post-actions button,
+.edit-post-actions button {
+  font-size: 0.9em;
+  height: 40px;
+  padding: 5px 15px;
+  margin-right: 6px;
+}
+
+.field-6 {
+  padding-top: 2px;
+}
+
+#grid_header{
+ margin: 0 auto;
+ max-width: calc(100% - 4em);
+ width: 80em;
+ padding-top: 20px;
 
 }
 #grid_header {
-display: grid;
+ display: grid;
 }
 #grid_header a {
-text-decoration: none;
-color: white;
+ text-decoration: none;
+ color: white;
 }
 #grid_header ul li {
-list-style: none;
-padding: 0 10px;
-float:left;
+ list-style: none;
+ padding: 0 10px;
+ float:left;
 }
 .header_top {
-font-size: 15px;
-padding-left: 65%;
+ font-size: 15px;
+ padding-left: 65%;
 }
 #foot{
-margin-top: 70PX;
-margin-left: 40px;
-padding-bottom: 2%;
-padding-left: 1%;
-color: rgb(131, 131, 131);
+ margin-top: 70PX;
+ margin-left: 40px;
+ padding-bottom: 2%;
+ padding-left: 1%;
+ color: rgb(131, 131, 131);
 }
 a:link {
-  color : rgb(131, 131, 131);
+ color : rgb(131, 131, 131);
 }
 a:visited {
-  color : rgb(131, 131, 131);
+ color : rgb(131, 131, 131);
 }
 
 .banddy{
-font-weight: bold;
-font-size: 60px;
-margin-left: 45px;
-margin-bottom: 50px;
-margin-top: 50px;
-padding: 10px;
-color: white;
-text-shadow:5px 5px 15px rgb(255, 254, 254); 
+ font-weight: bold;
+ font-size: 60px;
+ margin-left: 45px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+ padding: 10px;
+ color: rgb(145, 142, 142);
 }
- /*END CSS FOR CREATE BLOG PAGE*/
+ 
