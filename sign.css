@@ -164,6 +164,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 @media(max-width:800px){
+  #grid_header{
+    margin: 0px;
+    grid: none;
+  }
   #logo {
     grid: none;
   } 
@@ -177,4 +181,10 @@ body {
   .up_b{
     padding: 0px;
   }
+  #up_a{
+    border-bottom: none;
+  }
+.banddy{
+  margin: 0px;
+}
 }

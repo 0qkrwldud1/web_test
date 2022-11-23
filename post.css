@@ -171,78 +171,6 @@ button:hover {
   width: auto;
   max-width: 150px;
 }
-
-/* @media (max-width: 480px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-   font-size: 1.6em;
-  }
-
-  h3 {
-    font-size: 1.3em;
-  }
-
-  button {
-   font-size: 0.9em;
-  }
-
- .header-content {
-   justify-content: center;
- }
-
- .platform-logo {
-   max-width: 225px;
- }
-
- .header-nav {
-   display: none;
- }
-
- .body-root {
-   min-height: 74.5vh;
- }
-
- .body-section {
-   padding: 15px 0px;
- }
-
- .body-content {
-   flex-direction: column;
- }
-
- .sidebar {
-   width: 100%;
- }
-
- .main {
-   width: 100%;
- }
-
- .sidebar-menu {
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   padding-bottom: 2px;
- }
-
- .sidebar-menu .menu-item {
-   width: 48%;
-   margin-bottom: 15px;
- }
-
- .sidebar-menu .menu-icon {
-   margin-right: 6px;
- }
-
- .main-container {
-   padding: 15px 20px;
-   margin: 0px -16px 15px;
-   border-radius: 0px;
- }
-} */
 form {
   padding-top: 10px;
 }
@@ -439,6 +367,7 @@ a:visited {
 
  .body-content {
    flex-direction: column;
+   display: block;
  }
 
  .sidebar {
@@ -450,8 +379,9 @@ a:visited {
  }
 
  .sidebar-menu {
+   margin-top: 10px;
+   margin-bottom: 10px;
    flex-direction: row;
-   flex-wrap: wrap;
    justify-content: space-between;
    padding-bottom: 2px;
  }
