@@ -385,10 +385,11 @@ a:visited {
  font-weight: bold;
  font-size: 60px;
  margin-left: 45px;
- margin-bottom: 50px;
- margin-top: 50px;
  padding: 10px;
- color: rgb(145, 142, 142);
+ color: rgb(142, 143, 145);
+}
+.a{
+  margin-top: 60px;
 }
 @media (max-width: 800px) {
   #logo {
