@@ -296,3 +296,8 @@ input#search-bar {
   margin: 0 auto;
   border-top: 1.5px solid #868686;
 }
+@media(max-width :800px) {
+ #logo {
+  grid: none;
+ } 
+}
