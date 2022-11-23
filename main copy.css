@@ -297,7 +297,26 @@ input#search-bar {
   border-top: 1.5px solid #868686;
 }
 @media(max-width :800px) {
- #logo {
-  grid: none;
- } 
+  #logo {
+   grid: none;
+  } 
+  .logo_text{
+    display: block;
+    float: right;
+  }
+  .header_top{
+    padding-left: 0px;
+  }
+  .search-container{
+    width: 290px;
+  }
+  #search-bar{
+    width: 100%;
+  }
+  #ar{
+    width: 100%;
+  }
+  .ar_bar{
+    width: 290px;
+  }
 }

@@ -390,4 +390,15 @@ a:visited {
  padding: 10px;
  color: rgb(145, 142, 142);
 }
- 
+@media (max-width: 800px) {
+  #logo {
+    grid: none;
+  } 
+  .logo_text{
+    display: block;
+    float: right;
+  }
+  .header_top{
+    padding-left: 0px;
+  } 
+}

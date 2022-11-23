@@ -163,3 +163,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media(max-width:800px){
+  #logo {
+    grid: none;
+  } 
+  .logo_text{
+    display: block;
+    float: right;
+  }
+  .header_top{
+    padding-left: 0px;
+  }
+  .up_b{
+    padding: 0px;
+  }
+}
