@@ -7,10 +7,7 @@
   max-width: calc(100% - 4em);
   width: 80em;
   padding-top: 20px;
-    
-}
-#grid_header {
-  display: grid;
+  display: grid;  
 }
 #grid_header a {
   text-decoration: none;
@@ -164,10 +161,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 @media(max-width:800px){
-  #grid_header{
-    margin: 0px;
-    grid: none;
-  }
   #logo {
     grid: none;
   } 
@@ -187,4 +180,7 @@ body {
 .banddy{
   margin: 0px;
 }
+.top_member_box{
+  padding: 0px;
+ }
 }

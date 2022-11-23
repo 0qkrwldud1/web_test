@@ -319,4 +319,7 @@ input#search-bar {
   .ar_bar{
     width: 290px;
   }
+   .top_member_box{
+    padding: 0px;
+   }
 }
