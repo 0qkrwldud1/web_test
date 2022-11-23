@@ -226,11 +226,7 @@ h5{
  padding-left: 1%;
  color: rgb(131, 131, 131);
 }
-#ar{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-}
+
 a:link {
   color : rgb(131, 131, 131);
 }
@@ -238,10 +234,10 @@ a:visited {
   color : rgb(131, 131, 131);
 }
 a:hover,
- a:focus,
- a:active {
+a:focus,
+a:active {
    color: grey !important;
- }
+}
 #up_a{
   margin-top: 7%;
   margin-left: 25%;
@@ -259,6 +255,14 @@ a:hover,
 .me-2{
   padding: none;
 }
+.search-icon {
+  position: relative;
+  float: right;
+  width: 45px;
+  height: 45px;
+  top: -42px;
+  right: -50px;
+}
 .search-container {
   width: 490px;
   display: block;
@@ -272,13 +276,21 @@ input#search-bar {
   font-size: 1rem;
   border: 1px solid #ffffff;
   outline: none;
-  opacity: 0.3;
+  opacity: 0.0;
+  
 }
-.search-icon {
-  position: relative;
-  float: right;
-  width: 45px;
+#ar{
+  margin: 0 auto;
+  width: 100%;
   height: 45px;
-  top: -42px;
-  right: -50px;
+  padding: 0 20px;
+  font-size: 1rem;
+  outline: none;
+  
+}
+.ar_bar{
+  width: 490px;
+  display: block;
+  margin: 0 auto;
+  border-top: 2px dotted #5a5a5a;
 }
