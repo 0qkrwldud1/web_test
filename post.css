@@ -6,247 +6,243 @@
   font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
- body {
-   font-size: 16px;
-   background: white;
-   margin: 1px 0px 0px 0px;
-   background: linear-gradient(
-       90deg,
-       rgb(254, 255, 253) 0%,
-       rgb(134, 182, 194) 50%
-     );
+body {
+  font-size: 16px;
+  background: white;
+  margin: 1px 0px 0px 0px;
+  background: linear-gradient(
+    90deg,
+    rgb(254, 255, 253) 0%,
+    rgb(134, 182, 194) 50%
+    );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ letter-spacing: -0.035em;
+ margin: 0px 0px 10px 0px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #414141;
+}
+
+h3 {
+ font-size: 1.5em;
+}
+
+img,
+p,
+a {
+  margin: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
  }
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-   letter-spacing: -0.035em;
-   margin: 0px 0px 10px 0px;
- }
+a:hover,
+a:focus,
+a:active {
+  color: grey !important;
+}
 
- h1 {
-   font-size: 2.5em;
- }
+button {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 0px;
+  background: #f3f3f3;
+  border: 1px solid rgba(0, 0, 0, .12);
+  border-radius: 5px;
+}
 
- h2 {
-   font-size: 1.8em;
-   color: #414141;
- }
+button:hover {
+  cursor: pointer;
+}
 
- h3 {
-   font-size: 1.5em;
- }
+.header-content,
+.body-content,
+.footer-content {
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px; 
+}
 
- img,
- p,
- a {
-   margin: 0px;
- }
+.header-section {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+  height: auto;
+  padding: 18px 0px;
+}
 
- a {
-   color: black;
-   text-decoration: none;
- }
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
- a:hover,
- a:focus,
- a:active {
-   color: grey !important;
- }
+.platform-logo {
+  width: auto;
+  max-width: 250px;
+  height: auto;
+  max-height: 50px;
+}
 
- button {
-   font-size: 0.8em;
-   text-transform: uppercase;
-   padding: 5px 10px;
-   margin: 0px;
-   background: #f3f3f3;
-   border: 1px solid rgba(0, 0, 0, .12);
-   border-radius: 5px;
- }
+.header-nav .nav-icon {
+  color: #414141;
+  font-size: 1.5em;
+  margin: 0px 8px;
+}
 
- button:hover {
-   cursor: pointer;
- }
+.header-nav .nav-icon:hover {
+  color: #cbf436;
+}
 
- .header-content,
- .body-content,
- .footer-content {
-   height: auto;
-   max-width: 1200px;
-   margin: 0 auto;
-   padding: 0px 15px;
- }
+.body-root {
+  min-height: 85.3vh;
+}
 
- .header-section {
-   background: #fff;
-   border-bottom: 1px solid rgba(0, 0, 0, .12);
-   height: auto;
-   padding: 18px 0px;
- }
+.body-section {
+  padding: 100px 0px;
+}
+
+.body-content {
+  display: flex;
+}
+
+.sidebar {
+  width: 27%;
+  min-width: 200px;
+  height: auto;
+}
+
+.main {
+  width: 120%;
+  height: auto;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.sidebar-menu .menu-item {
+  color: #a8a8a8;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: auto;
+  max-width: 180px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-menu .menu-icon {
+  font-size: 1.2em;
+  text-align: center;
+  width: 35px;
+  margin-right: 12px;
+}
+
+.main-container {
+  background: rgb(235, 234, 234);
+  border: 1px solid rgba(0, 0, 0, .12);
+  border-radius: 5px;
+  padding: 25px 30px;
+  margin-bottom: 15px;
+  opacity: 0.92;
+}
+
+.msh-logo {
+  width: auto;
+  max-width: 150px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+   font-size: 1.6em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  button {
+   font-size: 0.9em;
+  }
 
  .header-content {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+   justify-content: center;
  }
 
  .platform-logo {
-   width: auto;
-   max-width: 250px;
-   height: auto;
-   max-height: 50px;
+   max-width: 225px;
  }
 
- .header-nav .nav-icon {
-   color: #414141;
-   font-size: 1.5em;
-   margin: 0px 8px;
- }
-
- .header-nav .nav-icon:hover {
-   color: #cbf436;
+ .header-nav {
+   display: none;
  }
 
  .body-root {
-   min-height: 85.3vh;
+   min-height: 74.5vh;
  }
 
  .body-section {
-   padding: 100px 0px;
+   padding: 15px 0px;
  }
 
  .body-content {
-   display: flex;
+   flex-direction: column;
  }
 
  .sidebar {
-   width: 27%;
-   min-width: 200px;
-   height: auto;
+   width: 100%;
  }
 
  .main {
-   width: 120%;
-   height: auto;
+   width: 100%;
  }
 
  .sidebar-menu {
-   display: flex;
-   flex-direction: column;
-   padding-top: 5px;
-   
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-bottom: 2px;
  }
 
  .sidebar-menu .menu-item {
-   color: #a8a8a8;
-   font-size: 1em;
-   font-weight: 700;
-   text-transform: uppercase;
-   width: auto;
-   max-width: 180px;
-   margin-bottom: 18px;
-   display: flex;
-   align-items: center;
+   width: 48%;
+   margin-bottom: 15px;
  }
 
  .sidebar-menu .menu-icon {
-   font-size: 1.2em;
-   text-align: center;
-   width: 35px;
-   margin-right: 12px;
+   margin-right: 6px;
  }
 
  .main-container {
-   background: rgb(235, 234, 234);
-   border: 1px solid rgba(0, 0, 0, .12);
-   border-radius: 5px;
-   padding: 25px 30px;
-   margin-bottom: 15px;
-   opacity: 0.92;
+   padding: 15px 20px;
+   margin: 0px -16px 15px;
+   border-radius: 0px;
  }
-
- .msh-logo {
-   width: auto;
-   max-width: 150px;
- }
-
- @media (max-width: 480px) {
-   h1 {
-     font-size: 2em;
-   }
-
-   h2 {
-     font-size: 1.6em;
-   }
-
-   h3 {
-     font-size: 1.3em;
-   }
-
-   button {
-     font-size: 0.9em;
-   }
-
-   .header-content {
-     justify-content: center;
-   }
-
-   .platform-logo {
-     max-width: 225px;
-   }
-
-   .header-nav {
-     display: none;
-   }
-
-   .body-root {
-     min-height: 74.5vh;
-   }
-
-   .body-section {
-     padding: 15px 0px;
-   }
-
-   .body-content {
-     flex-direction: column;
-   }
-
-   .sidebar {
-     width: 100%;
-   }
-
-   .main {
-     width: 100%;
-   }
-
-   .sidebar-menu {
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding-bottom: 2px;
-   }
-
-   .sidebar-menu .menu-item {
-     width: 48%;
-     margin-bottom: 15px;
-   }
-
-   .sidebar-menu .menu-icon {
-     margin-right: 6px;
-   }
-
-   .main-container {
-     padding: 15px 20px;
-     margin: 0px -16px 15px;
-     border-radius: 0px;
-   }
- }
-
- /*END GENERAL CSS FOR BACKEND*/
- /*START CSS FOR CREATE BLOG PAGE*/
+}
 form {
   padding-top: 10px;
 }
